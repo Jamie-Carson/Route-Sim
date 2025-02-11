@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -22,16 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "src/types/**/*.d.ts",
-    "types/*.d.ts",
-    "src/types/*.ts"
-  ],
-  "exclude": ["node_modules"],
-  "types": ["@types/three", "@react-three/fiber"],
-  "typeRoots": ["./node_modules/@types", "./src/types"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
